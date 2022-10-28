@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'CR', sans-serif;
+    background: var(--bg);
+    color: var(--white);
+}
+
+:root {
+    --bg: #040D1F;
+    --CR: 'CR', sans-serif;
+    --CR: 'CB', sans-serif;
+    --CR: 'MR', sans-serif;
+    --CR: 'MB', sans-serif;
+    --CR: 'RR', sans-serif;
+    --CR: 'RB', sans-serif;
+    --white: white;
+    --black: black;
+    --orange: #F18128;
+    --light: #ED8E00;
+}
