@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: none;
+    box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 body {
-    font-family: 'CR', sans-serif;
+    font-family: var(--CR);
     background: var(--bg);
     color: var(--white);
 }
@@ -14,13 +15,22 @@ body {
 :root {
     --bg: #040D1F;
     --CR: 'CR', sans-serif;
-    --CR: 'CB', sans-serif;
-    --CR: 'MR', sans-serif;
-    --CR: 'MB', sans-serif;
-    --CR: 'RR', sans-serif;
-    --CR: 'RB', sans-serif;
-    --white: white;
-    --black: black;
+    --CB: 'CB', sans-serif;
+    --MR: 'MR', sans-serif;
+    --MB: 'MB', sans-serif;
+    --RR: 'RR', sans-serif;
+    --RM: 'RM', sans-serif;
+    --white: #fff;
+    --black: #000;
     --orange: #F18128;
     --light: #ED8E00;
 }
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
