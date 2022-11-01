@@ -23,6 +23,8 @@
     background: #010305CC;
     backdrop-filter: blur(7.5px);
     padding: 29px 0;
+    
+    
 }
 
 .nav__wrap {
@@ -76,4 +78,15 @@
 
 .menu__link:hover {
     color: var(--light);
+}
+
+@media (max-width: 768px) {
+    .nav__wrap {
+        flex-direction: column;
+        gap: 30px;
+    } 
+    
+    .menu__link::after {
+        bottom: -29px;
+    }
 }
