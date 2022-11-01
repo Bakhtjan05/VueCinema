@@ -59,5 +59,35 @@
 
 .btn:hover {
     background: var(--orange);
+    color: black;
+}
+
+@media screen and (max-width:640px) {
+    .banner__h {
+        font-weight: 44px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .banner__h {
+        font-weight: 33px;
+    }
+    .banner__p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .banner__btns {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:360px) {
+    .banner__h {
+        font-weight: 28px;
+    }
+    .banner__p {
+        font-size: 12px;
+    }
 }
     
