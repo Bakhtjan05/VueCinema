@@ -1,0 +1,63 @@
+.banner {
+    background: url(../img/main-image.png) no-repeat top right/cover;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+.banner__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #070F19BF;
+    z-index: -1;
+}
+
+.banner__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.banner__desc {
+    max-width: 600px;
+    width: 100%;
+}
+.banner__h{
+    font-family: var(--MB);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    margin-bottom: 30px;
+}
+.banner__p {
+    font-family: var(--MR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    color: #C8C8C8;
+}
+
+.banner__btns {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 17px 47px;
+    font-family: var(--RM);
+    border-radius: 4px;
+    display: flex;
+    justify-content: ;
+    color: white;
+    background: var(--bg);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--orange);
+}
+    
